@@ -1,4 +1,4 @@
 # dnmade1
 
-*[Parcours Version Mains et Pieds](./Parcoursvpm)
-*[Parcours VFonctionelle](./VR_parcours)
+*[Parcours Version Mains et Pieds](Parcoursvpm.html)
+*[Parcours VFonctionelle](VR_parcours.html)
