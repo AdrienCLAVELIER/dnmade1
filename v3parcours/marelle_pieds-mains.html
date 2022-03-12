@@ -1,0 +1,4688 @@
+<!-- LES PIEDS SUIVENT MAINS -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  <script src="myutils.js"></script>
+  <script src="https://rawgit.com/mayognaise/aframe-gif-shader/master/dist/aframe-gif-shader.min.js"></script>
+  <script src="https://rawgit.com/takahirox/aframe-rain/master/build/aframe-rain.min.js"></script>
+
+  <script
+    src="https://cdn.rawgit.com/elbobo/aframe-multisrc-component/b6d23310/dist/0.3/aframe-multisrc-component.js"></script>
+
+
+</head>
+
+<audio autoplay loop src="./assets/son/vent.mp3"> </audio>
+<audio autoplay loop src="./assets/son/ORAGE.mp3"> </audio>
+
+<body>
+
+
+
+  <a-scene fog="type: linear; color: #4D4D4D; far: 20; near: 0">
+
+    <a-assets>
+      <a-asset-item id="leftfoot" src="../Parcours vPiedMains/piedgauche.glb"></a-asset-item>
+      <a-asset-item id="rightfoot" src="../Parcours vPiedMains/pieddroite.glb"></a-asset-item>
+      <img id="TP" src="pierre.jpg">
+    </a-assets>
+
+    <a-entity light="type: ambient; color: #CCC; intensity:0"></a-entity>
+
+    <a-light type="directional" position="0 0 0" rotation="-90 0 0" target="#directionaltarget" intensity="0">
+      <a-entity id="directionaltarget" position="0 2 -1"></a-entity>
+    </a-light>
+
+
+    ------------------------------------------------------------------------
+    ------------------------------------------------------------------------
+    ------------------------------------------------------------------------
+
+    <a-box src="#TP" position="0 -15 -4" color="black" height="30"></a-box>
+
+    <a-box position="0 -15 0.5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 -14.8 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 -14.6 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 -14.4 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 -14.2 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-15 -14 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 -13.8 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 -13.6 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 -13.4 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 -13.2 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 -13 -4" color="black" height="30"></a-box>
+
+
+    ----------------------------------------------------------------------------------------
+
+
+
+
+    <a-box position="0 -15 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 -14.8 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 -14.6 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 -14.4 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 -14.2 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 -14 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 -13.8 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 -13.6 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 -13.4 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 -13.2 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 -13 -4" color="black" height="30"></a-box>
+
+
+    ---------------------------------------------------------------------------------
+
+
+
+    <a-box position="0 -15 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 -14.8 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 -14.6 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 -14.5 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 -14.3 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-15 -14.1 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 -14 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 -13.8 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 -13.6 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 -13.4 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 -13.2 -7" color="black" height="30"></a-box>
+
+
+
+
+    ------------------------------------------------------------------------------------------
+
+
+    <a-box position="0 -15 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 -14.8 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 -14.6 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 -14.4 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 -14.2 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 -14 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 -13.8 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 -13.6 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 -13.4 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 -13.2 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 -13 -7" color="black" height="30"></a-box>
+
+    ------------------------------------------------------------------------
+
+    ---------------------------------------------------------------------------------
+
+
+
+    <a-box position="0 -15 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 -14.8 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 -14.6 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 -14.5 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 -14.3 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-15 -14.1 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 -14 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 -13.8 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 -13.6 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 -13.4 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 -13.2 -10" color="black" height="30"></a-box>
+
+
+
+
+    ------------------------------------------------------------------------------------------
+
+
+    <a-box position="0 -15 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 -14.8 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 -14.6 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 -14.4 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 -14.2 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 -14 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 -13.8 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 -13.6 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 -13.4 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 -13.2 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 -13 -10" color="black" height="30"></a-box>
+
+    ------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------
+
+
+
+    <a-box position="0 -15 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 -14.8 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 -14.6 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 -14.5 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 -14.3 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-15 -14.1 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 -14 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 -13.8 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 -13.6 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 -13.4 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 -13.2 -13" color="black" height="30"></a-box>
+
+
+
+
+    ------------------------------------------------------------------------------------------
+
+
+    <a-box position="0 -15 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 -14.8 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 -14.6 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 -14.4 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 -14.2 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 -14 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 -13.8 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 -13.6 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 -13.4 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 -13.2 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 -13 -13" color="black" height="30"></a-box>
+    -------------------------------------------------------------------------
+
+    ---------------------------------------------------------------------------------
+
+
+
+    <a-box position="0 -15 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 -14.8 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 -14.6 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 -14.5 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 -14.3 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-15 -14.1 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 -14 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 -13.8 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 -13.6 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 -13.4 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 -13.2 -16" color="black" height="30"></a-box>
+
+
+
+
+    ------------------------------------------------------------------------------------------
+
+
+    <a-box position="0 -15 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 -14.8 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 -14.6 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 -14.4 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 -14.2 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 -14 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 -13.8 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 -13.6 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 -13.4 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 -13.2 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 -13 -16" color="black" height="30"></a-box>
+    ------------------------------------------------------------------
+
+
+
+    -----------------------------------------------------------------------
+
+
+    <a-box position="0 -15 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 -14.8 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 -14.6 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 -14.5 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 -14.3 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-15 -14.1 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 -14 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 -13.8 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 -13.6 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 -13.4 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 -13.2 -19" color="black" height="30"></a-box>
+
+
+    -------------------------------------------------------------------------------------
+
+
+    <a-box position="0 -15 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 -14.8 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 -14.6 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 -14.4 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 -14.2 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 -14 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 -13.8 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 -13.6 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 -13.4 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 -13.2 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 -13 -19" color="black" height="30"></a-box>
+
+    -----------------------------------------------------------------
+
+
+
+    -----------------------------------------------------------------------
+
+
+    <a-box position="0 -15 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 -14.8 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 -14.6 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 -14.5 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 -14.3 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-15 -14.1 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 -14 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 -13.8 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 -13.6 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 -13.4 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 -13.2 -22" color="black" height="30"></a-box>
+
+
+    -------------------------------------------------------------------------------------
+
+
+    <a-box position="0 -15 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 -14.8 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 -14.6 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 -14.4 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 -14.2 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 -14 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 -13.8 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 -13.6 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 -13.4 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 -13.2 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 -13 -22" color="black" height="30"></a-box>
+
+
+
+
+    ------------------------------------------------------------------------------------------ !!!!!
+    ------------------------------------------------------------------------------------------ !!!!!
+    ------------------------------------------------------------------------------------------ !!!!!
+
+
+    <a-box position="0 -15 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 -14.8 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 -14.6 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 -14.4 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 -14.2 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-15 -14 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 -13.8 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 -13.6 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 -13.4 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 -13.2 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 -13 -1" color="black" height="30"></a-box>
+
+
+    ----------------------------------------------------------------------------------------
+
+
+
+
+    <a-box position="0 -15 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 -14.8 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 -14.6 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 -14.4 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 -14.2 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 -14 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 -13.8 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 -13.6 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 -13.4 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 -13.2 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 -13 -1" color="black" height="30"></a-box>
+
+
+    ---------------------------------------------------------------------------------
+
+
+
+    <a-box position="0 -15 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 -14.8 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 -14.6 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 -14.5 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 -14.3 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-15 -14.1 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 -14 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 -13.8 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 -13.6 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 -13.4 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 -13.2 -7" color="black" height="30"></a-box>
+
+
+
+
+    ------------------------------------------------------------------------------------------
+
+
+    <a-box position="0 -15 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 -14.8 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 -14.6 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 -14.4 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 -14.2 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 -14 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 -13.8 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 -13.6 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 -13.4 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 -13.2 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 -13 -7" color="black" height="30"></a-box>
+
+    ------------------------------------------------------------------------
+
+    ---------------------------------------------------------------------------------
+
+
+
+    <a-box position="0 -15 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 -14.8 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 -14.6 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 -14.5 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 -14.3 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-15 -14.1 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 -14 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 -13.8 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 -13.6 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 -13.4 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 -13.2 -10" color="black" height="30"></a-box>
+
+
+
+
+    ------------------------------------------------------------------------------------------
+
+
+    <a-box position="0 -15 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 -14.8 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 -14.6 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 -14.4 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 -14.2 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 -14 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 -13.8 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 -13.6 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 -13.4 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 -13.2 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 -13 -10" color="black" height="30"></a-box>
+
+    ------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------
+
+
+
+    <a-box position="0 -15 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 -14.8 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 -14.6 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 -14.5 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 -14.3 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-15 -14.1 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 -14 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 -13.8 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 -13.6 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 -13.4 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 -13.2 -13" color="black" height="30"></a-box>
+
+
+
+
+    ------------------------------------------------------------------------------------------
+
+
+    <a-box position="0 -15 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 -14.8 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 -14.6 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 -14.4 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 -14.2 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 -14 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 -13.8 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 -13.6 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 -13.4 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 -13.2 -13" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 -13 -13" color="black" height="30"></a-box>
+    -------------------------------------------------------------------------
+
+    ---------------------------------------------------------------------------------
+
+
+
+    <a-box position="0 -15 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 -14.8 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 -14.6 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 -14.5 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 -14.3 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-15 -14.1 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 -14 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 -13.8 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 -13.6 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 -13.4 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 -13.2 -16" color="black" height="30"></a-box>
+
+
+
+
+    ------------------------------------------------------------------------------------------
+
+
+    <a-box position="0 -15 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 -14.8 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 -14.6 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 -14.4 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 -14.2 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 -14 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 -13.8 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 -13.6 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 -13.4 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 -13.2 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 -13 -16" color="black" height="30"></a-box>
+    ------------------------------------------------------------------
+
+
+
+    -----------------------------------------------------------------------
+
+
+    <a-box position="0 -15 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 -14.8 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 -14.6 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 -14.5 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 -14.3 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-15 -14.1 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 -14 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 -13.8 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 -13.6 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 -13.4 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 -13.2 -19" color="black" height="30"></a-box>
+
+
+    -------------------------------------------------------------------------------------
+
+
+    <a-box position="0 -15 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 -14.8 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 -14.6 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 -14.4 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 -14.2 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 -14 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 -13.8 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 -13.6 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 -13.4 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 -13.2 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 -13 -19" color="black" height="30"></a-box>
+
+    -----------------------------------------------------------------
+
+
+
+    -----------------------------------------------------------------------
+
+
+    <a-box position="0 -15 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 -14.8 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 -14.6 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 -14.5 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 -14.3 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-15 -14.1 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 -14 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 -13.8 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 -13.6 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 -13.4 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 -13.2 -22" color="black" height="30"></a-box>
+
+
+    -------------------------------------------------------------------------------------
+
+
+    <a-box position="0 -15 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 -14.8 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 -14.6 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 -14.4 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 -14.2 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 -14 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 -13.8 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 -13.6 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 -13.4 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 -13.2 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 -13 -22" color="black" height="30"></a-box>
+
+
+    ------------------------------------------------------------------------
+    ------------------------------------------------------------------------
+    ------------------------------------------------------------------------
+
+    <a-box id="CUBE" position="0 -15 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 -14.8 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 -14.6 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 -14.4 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 -14.2 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-15 -14 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 -13.8 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 -13.6 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 -13.4 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 -13.2 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 -13 -1" color="black" height="30"></a-box>
+
+
+    ----------------------------------------------------------------------------------------
+
+
+
+
+    <a-box position="0 -15 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 -14.8 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 -14.6 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 -14.4 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 -14.2 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 -14 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 -13.8 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 -13.6 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 -13.4 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 -13.2 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 -13 -1" color="black" height="30"></a-box>
+
+
+    ---------------------------------------------------------------------------------
+
+
+
+    <a-box position="0 -15 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 -14.8 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 -14.6 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 -14.5 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 -14.3 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-15 -14.1 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 -14 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 -13.8 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 -13.6 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 -13.4 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 -13.2 2" color="black" height="30"></a-box>
+
+
+
+
+    ------------------------------------------------------------------------------------------
+
+
+    <a-box position="0 -15 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 -14.8 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 -14.6 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 -14.4 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 -14.2 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 -14 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 -13.8 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 -13.6 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 -13.4 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 -13.2 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 -13 2" color="black" height="30"></a-box>
+
+    ------------------------------------------------------------------------
+
+    ---------------------------------------------------------------------------------
+
+
+
+    <a-box position="0 -15 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 -14.8 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 -14.6 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 -14.5 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 -14.3 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-15 -14.1 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 -14 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 -13.8 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 -13.6 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 -13.4 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 -13.2 5" color="black" height="30"></a-box>
+
+
+
+
+    ------------------------------------------------------------------------------------------
+
+
+    <a-box position="0 -15 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 -14.8 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 -14.6 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 -14.4 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 -14.2 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 -14 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 -13.8 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 -13.6 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 -13.4 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 -13.2 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 -13 5" color="black" height="30"></a-box>
+
+    ------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------
+
+
+
+    <a-box position="0 -15 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 -14.8 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 -14.6 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 -14.5 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 -14.3 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-15 -14.1 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 -14 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 -13.8 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 -13.6 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 -13.4 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 -13.2 8" color="black" height="30"></a-box>
+
+
+
+
+    ------------------------------------------------------------------------------------------
+
+
+    <a-box position="0 -15 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 -14.8 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 -14.6 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 -14.4 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 -14.4 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 -14 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 -13.8 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 -13.6 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 -13.4 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 -13.2 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 -13 8" color="black" height="30"></a-box>
+    -------------------------------------------------------------------------
+
+    ---------------------------------------------------------------------------------
+
+
+
+    <a-box position="0 -15 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 -14.8 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 -14.6 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 -14.5 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 -14.3 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-15 -14.1 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 -14 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 -13.8 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 -13.6 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 -13.4 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 -13.2 11" color="black" height="30"></a-box>
+
+
+
+
+    ------------------------------------------------------------------------------------------
+
+
+    <a-box position="0 -15 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 -14.8 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 -14.6 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 -14.4 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 -14.2 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 -14 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 -13.8 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 -13.6 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 -13.4 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 -13.2 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 -13 11" color="black" height="30"></a-box>
+    ------------------------------------------------------------------
+
+
+
+    -----------------------------------------------------------------------
+
+
+    <a-box position="0 -15 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 -14.8 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 -14.6 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 -14.5 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 -14.3 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-15 -14.1 14" color="black" height="30"></a-box>
+
+
+    <a-box position="-18 -14 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 -13.8 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 -13.6 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 -13.4 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 -13.2 14" color="black" height="30"></a-box>
+
+
+    -------------------------------------------------------------------------------------
+
+
+    <a-box position="0 -15 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 -14.8 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 -14.6 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 -14.4 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 -14.2 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 -14 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 -13.8 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 -13.6 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 -13.4 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 -13.2 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 -13 14" color="black" height="30"></a-box>
+
+    -----------------------------------------------------------------
+
+
+
+    -----------------------------------------------------------------------
+
+
+    <a-box position="0 -15 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 -14.8 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 -14.6 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 -14.5 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 -14.3 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-15 -14.1 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 -14 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 -13.8 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 -13.6 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 -13.4 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 -13.2 17" color="black" height="30"></a-box>
+
+
+    -------------------------------------------------------------------------------------
+
+
+    <a-box position="0 -15 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 -14.8 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 -14.6 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 -14.4 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 -14.2 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 -14 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 -13.8 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 -13.6 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 -13.4 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 -13.2 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 -13 17" color="black" height="30"></a-box>
+
+
+
+
+    ------------------------------------------------------------------------------------------ !!!!!
+    ------------------------------------------------------------------------------------------ !!!!!
+    ------------------------------------------------------------------------------------------ !!!!!
+
+
+    <a-box position="0 -15 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 -14.8 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 -14.6 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 -14.4 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 -14.2 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-15 -14 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 -13.8 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 -13.6 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 -13.4 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 -13.2 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 -13 20" color="black" height="30"></a-box>
+
+
+    ----------------------------------------------------------------------------------------
+
+
+
+
+    <a-box position="0 -15 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 -14.8 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 -14.6 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 -14.4 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 -14.2 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 -14 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 -13.8 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 -13.6 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 -13.4 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 -13.2 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 -13 20" color="black" height="30"></a-box>
+
+
+    ---------------------------------------------------------------------------------
+
+
+
+    <a-box position="0 -15 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 -14.8 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 -14.6 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 -14.5 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 -14.3 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-15 -14.1 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 -14 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 -13.8 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 -13.6 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 -13.4 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 -13.2 23" color="black" height="30"></a-box>
+
+
+
+
+    ------------------------------------------------------------------------------------------
+
+
+    <a-box position="0 -15 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 -14.8 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 -14.6 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 -14.4 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 -14.2 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 -14 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 -13.8 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 -13.6 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 -13.4 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 -13.2 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 -13 23" color="black" height="30"></a-box>
+
+    ------------------------------------------------------------------------
+
+    ---------------------------------------------------------------------------------
+
+
+
+    <a-box position="0 -15 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 -14.8 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 -14.6 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 -14.5 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 -14.3 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-15 -14.1 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 -14 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 -13.8 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 -13.6 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 -13.4 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 -13.2 26" color="black" height="30"></a-box>
+
+
+
+
+    ------------------------------------------------------------------------------------------
+
+
+    <a-box position="0 -15 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 -14.8 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 -14.6 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 -14.4 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 -14.2 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 -14 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 -13.8 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 -13.6 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 -13.4 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 -13.2 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 -13 26" color="black" height="30"></a-box>
+
+    ------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------
+    --------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+    <!-- PARTIE DU HAUT-->
+
+
+
+    ------------------------------------------------------------------------
+    --------------------------------------------------------------------------------
+    ------------------------------------------------------------------------
+
+    <a-box src="#TP" position="0 20 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 20 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 20-4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 20 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 20 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="20 20 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 20 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 20 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 20 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 20 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 20 -4" color="black" height="30"></a-box>
+
+
+    ----------------------------------------------------------------------------------------
+
+
+
+
+    <a-box position="0 20 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 20 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 20 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 20 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 20 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 20 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 20 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 20 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 20 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 20 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 20 -4" color="black" height="30"></a-box>
+
+
+    ---------------------------------------------------------------------------------
+
+
+
+    <a-box position="0 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="20 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 20 -7" color="black" height="30"></a-box>
+
+
+
+
+    ------------------------------------------------------------------------------------------
+
+
+    <a-box position="0 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 20 -7" color="black" height="30"></a-box>
+
+    ------------------------------------------------------------------------
+
+    ---------------------------------------------------------------------------------
+
+
+
+    <a-box position="0 20 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 20 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 20 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 20 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 20 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="20 20 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 20 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 20 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 20 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 20 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 20 -10" color="black" height="30"></a-box>
+
+
+
+
+    ------------------------------------------------------------------------------------------
+
+
+    <a-box position="0 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 20 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 20 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 20 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 20 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 20 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 20 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 20 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 20 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 20 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 20 -10" color="black" height="30"></a-box>
+
+    ------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------
+
+
+
+    <a-box position="0 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="20 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 20 20" color="black" height="30"></a-box>
+
+
+
+
+    ------------------------------------------------------------------------------------------
+
+
+    <a-box position="0 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 20 20" color="black" height="30"></a-box>
+    -------------------------------------------------------------------------
+
+    ---------------------------------------------------------------------------------
+
+
+
+    <a-box position="0 20 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 20 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 20 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 20 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 20 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="20 20 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 20 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 20 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 20 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 20 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 20 -16" color="black" height="30"></a-box>
+
+
+
+
+    ------------------------------------------------------------------------------------------
+
+
+    <a-box position="0 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 20 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 20 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 20 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 20 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 20 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 20 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 20 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 20 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 20 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 20 -16" color="black" height="30"></a-box>
+    ------------------------------------------------------------------
+
+
+
+    -----------------------------------------------------------------------
+
+
+    <a-box position="0 20 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 20 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 20 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 20 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 20 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="20 20 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 20 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 20 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 20 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 20 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 20 -19" color="black" height="30"></a-box>
+
+
+    -------------------------------------------------------------------------------------
+
+
+    <a-box position="0 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 20 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 20 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 20.4 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 20.2 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 20 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 20 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 20 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 20 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 20 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 20 -19" color="black" height="30"></a-box>
+
+    -----------------------------------------------------------------
+
+
+
+    -----------------------------------------------------------------------
+
+
+    <a-box position="0 20 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 20 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 20 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 20 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 20 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="20 20 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 20 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 20 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 20 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 20 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 20 -22" color="black" height="30"></a-box>
+
+
+    -------------------------------------------------------------------------------------
+
+
+    <a-box position="0 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 20 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 20 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 20.4 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 20.2 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 20 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 20 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 20 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 20 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 20 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 20 -22" color="black" height="30"></a-box>
+
+
+
+
+    ------------------------------------------------------------------------------------------ !!!!!
+    ------------------------------------------------------------------------------------------ !!!!!
+    ------------------------------------------------------------------------------------------ !!!!!
+
+
+    <a-box position="0 20 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 20 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 20 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 20.4 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 20.2 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="20 20 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 20 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 20 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 20 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 20 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 20 -1" color="black" height="30"></a-box>
+
+
+    ----------------------------------------------------------------------------------------
+
+
+
+
+    <a-box position="0 20 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 20 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 20 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 20.4 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 20.2 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 20 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 20 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 20 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 20 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 20 -4" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 20 -1" color="black" height="30"></a-box>
+
+
+    ---------------------------------------------------------------------------------
+
+
+
+    <a-box position="0 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="20 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 20 -7" color="black" height="30"></a-box>
+
+
+
+
+    ------------------------------------------------------------------------------------------
+
+
+    <a-box position="0 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 20.4 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 20.2 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 20 -7" color="black" height="30"></a-box>
+
+    ------------------------------------------------------------------------
+
+    ---------------------------------------------------------------------------------
+
+
+
+    <a-box position="0 20 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 20 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 20 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 20 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 20 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="20 20 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 20 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 20 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 20 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 20 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 20 -10" color="black" height="30"></a-box>
+
+
+
+
+    ------------------------------------------------------------------------------------------
+
+
+    <a-box position="0 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 20 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 20 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 20.4 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 20.2 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 20 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 20 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 20 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 20 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 20 -10" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 20 -10" color="black" height="30"></a-box>
+
+    ------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------
+
+
+
+    <a-box position="0 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="20 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 20 20" color="black" height="30"></a-box>
+
+
+
+
+    ------------------------------------------------------------------------------------------
+
+
+    <a-box position="0 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 20.4 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 20.2 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 20 20" color="black" height="30"></a-box>
+    -------------------------------------------------------------------------
+
+    ---------------------------------------------------------------------------------
+
+
+
+    <a-box position="0 20 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 20 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 20 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 20 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 20 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="20 20 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 20 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 20 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 20 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 20 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 20 -16" color="black" height="30"></a-box>
+
+
+
+
+    ------------------------------------------------------------------------------------------
+
+
+    <a-box position="0 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 20 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 20 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 20.4 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 20.2 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 20 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 20 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 20 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 20 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 20 -16" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 20 -16" color="black" height="30"></a-box>
+    ------------------------------------------------------------------
+
+
+
+    -----------------------------------------------------------------------
+
+
+    <a-box position="0 20 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 20 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 20 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 20 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 20 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="20 20 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 20 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 20 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 20 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 20 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 20 -19" color="black" height="30"></a-box>
+
+
+    -------------------------------------------------------------------------------------
+
+
+    <a-box position="0 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 20 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 20 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 20.4 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 20.2 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 20 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 20 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 20 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 20 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 20 -19" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 20 -19" color="black" height="30"></a-box>
+
+    -----------------------------------------------------------------
+
+
+
+    -----------------------------------------------------------------------
+
+
+    <a-box position="0 20 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 20 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 20 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 20 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 20 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="20 20 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 20 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 20 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 20 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 20 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 20 -22" color="black" height="30"></a-box>
+
+
+    -------------------------------------------------------------------------------------
+
+
+    <a-box position="0 20 -7" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 20 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 20 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 20.4 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 20.2 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 20 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 20 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 20 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 20 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 20 -22" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 20 -22" color="black" height="30"></a-box>
+
+
+    ------------------------------------------------------------------------
+    ------------------------------------------------------------------------
+    ------------------------------------------------------------------------
+
+    <a-box id="CUBE" position="0 20 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 20 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 20 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 20.4 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 20.2 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="20 20 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 20 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 20 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 20 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 20 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 20 -1" color="black" height="30"></a-box>
+
+
+    ----------------------------------------------------------------------------------------
+
+
+
+
+    <a-box position="0 20 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 20 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 20 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 20.4 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 20.2 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 20 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 20 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 20 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 20 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 20 -1" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 20 -1" color="black" height="30"></a-box>
+
+
+    ---------------------------------------------------------------------------------
+
+
+
+    <a-box position="0 20 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 20 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 20 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 20 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 20 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="20 20 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 20 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 20 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 20 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 20 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 20 2" color="black" height="30"></a-box>
+
+
+
+
+    ------------------------------------------------------------------------------------------
+
+
+    <a-box position="0 20 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 20 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 20 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 20.4 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 20.2 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 20 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 20 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 20 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 20 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 20 2" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 20 2" color="black" height="30"></a-box>
+
+    ------------------------------------------------------------------------
+
+    ---------------------------------------------------------------------------------
+
+
+
+    <a-box position="0 20 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 20 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 20 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 20 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 20 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="20 20 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 20 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 20 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 20 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 20 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 20 5" color="black" height="30"></a-box>
+
+
+
+
+    ------------------------------------------------------------------------------------------
+
+
+    <a-box position="0 20 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 20 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 20 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 20.4 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 20.2 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 20 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 20 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 20 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 20 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 20 5" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 20 5" color="black" height="30"></a-box>
+
+    ------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------
+
+
+
+    <a-box position="0 20 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 20 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 20 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 20 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 20 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="20 20 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 20 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 20 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 20 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 20 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 20 8" color="black" height="30"></a-box>
+
+
+
+
+    ------------------------------------------------------------------------------------------
+
+
+    <a-box position="0 20 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 20 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 20 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 20.4 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 20.4 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 20 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 20 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 20 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 20 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 20 8" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 20 8" color="black" height="30"></a-box>
+    -------------------------------------------------------------------------
+
+    ---------------------------------------------------------------------------------
+
+
+
+    <a-box position="0 20 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 20 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 20 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 20 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 20 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="20 20 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 20 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 20 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 20 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 20 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 20 11" color="black" height="30"></a-box>
+
+
+
+
+    ------------------------------------------------------------------------------------------
+
+
+    <a-box position="0 20 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 20 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 20 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 20.4 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 20.2 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 20 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 20 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 20 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 20 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 20 11" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 20 11" color="black" height="30"></a-box>
+    ------------------------------------------------------------------
+
+
+
+    -----------------------------------------------------------------------
+
+
+    <a-box position="0 20 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 20 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 20 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 20 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 20 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="20 20 14" color="black" height="30"></a-box>
+
+
+    <a-box position="-18 20 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 20 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 20 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 20 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 20 14" color="black" height="30"></a-box>
+
+
+    -------------------------------------------------------------------------------------
+
+
+    <a-box position="0 20 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 20 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 20 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 20.4 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 20.2 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 20 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 20 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 20 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 20 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 20 14" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 20 14" color="black" height="30"></a-box>
+
+    -----------------------------------------------------------------
+
+
+
+    -----------------------------------------------------------------------
+
+
+    <a-box position="0 20 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 20 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 20 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 20 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 20 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="20 20 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 20 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 20 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 20 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 20 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 20 17" color="black" height="30"></a-box>
+
+
+    -------------------------------------------------------------------------------------
+
+
+    <a-box position="0 20 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 20 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 20 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 20.4 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 20.2 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 20 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 20 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 20 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 20 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 20 17" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 20 17" color="black" height="30"></a-box>
+
+
+
+
+    ------------------------------------------------------------------------------------------ !!!!!
+    ------------------------------------------------------------------------------------------ !!!!!
+    ------------------------------------------------------------------------------------------ !!!!!
+
+
+    <a-box position="0 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 20.4 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 20.2 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="20 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 20 20" color="black" height="30"></a-box>
+
+
+    ----------------------------------------------------------------------------------------
+
+
+
+
+    <a-box position="0 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 20.4 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 20.2 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 20 20" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 20 20" color="black" height="30"></a-box>
+
+
+    ---------------------------------------------------------------------------------
+
+
+
+    <a-box position="0 20 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 20 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 20 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 20 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 20 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="20 20 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 20 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 20 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 20 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 20 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 20 23" color="black" height="30"></a-box>
+
+
+
+
+    ------------------------------------------------------------------------------------------
+
+
+    <a-box position="0 20 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 20 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 20 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 20.4 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 20.2 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 20 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 20 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 20 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 20 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 20 23" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 20 23" color="black" height="30"></a-box>
+
+    ------------------------------------------------------------------------
+
+    ---------------------------------------------------------------------------------
+
+
+
+    <a-box position="0 20 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-3 20 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-6 20 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-9 20 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-12 20 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="20 20 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-18 20 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-21 20 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-24 20 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-27 20 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="-30 20 26" color="black" height="30"></a-box>
+
+
+
+
+    ------------------------------------------------------------------------------------------
+
+
+    <a-box position="0 20 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="3 20 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="6 20 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="9 20.4 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="12 20.2 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="15 20 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="18 20 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="21 20 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="24 20 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="27 20 26" color="black" height="30"></a-box>
+
+
+
+    <a-box position="30 20 26" color="black" height="30"></a-box>
+
+    ------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------
+
+
+
+    <a-image src="fondv2.png" material="alphaTest: 0.5" position="0 4 -60" width="120" length="1" height="60">
+    </a-image>
+
+    <a-image src="fondv3.png" material="alphaTest: 0.5" position="1 6 60" width="120" length="1" height="60">
+    </a-image>
+
+    <a-image src="fondv4.png" material="alphaTest: 0.5" position="-60 8 1" width="120" length="1" height="60"
+      rotation="0 90 0">
+    </a-image>
+
+    <a-image src="fondv4.png" material="alphaTest: 0.5" position="60 8 1" width="120" length="1" height="60"
+      rotation="0 90 0">
+    </a-image>
+
+
+    <a-image src="portev3.png" material="alphaTest: 0.5" position="0 1.74 -4" width="3.7" length="1" height="5">
+    </a-image>
+    <a-image src="portev3.png" material="alphaTest: 0.5" position="0 1.74 -4.2" width="3.7" length="1" height="5">
+    </a-image>
+    <a-image src="portefond.png" material="opacity: 0.4; transparent: true alphaTest: 0.1" position="0 1.74 -4.1"
+      width="3.7" length="1" height="5">
+    </a-image>
+
+    <!-- <a-box position="0 -15 -2.5" color="black" width="0.5" length="0.1" height="30"></a-box>
+
+        <a-box position="0 -15 0.5" color="black" height="30"></a-box>-->
+
+
+
+
+    <a-sky src="cielneb2.png"></a-sky>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </a-scene>
+
+
+
+</body>
+
+</html>
