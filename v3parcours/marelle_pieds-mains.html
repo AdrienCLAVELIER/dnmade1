@@ -4662,6 +4662,33 @@
 
     <a-sky src="cielneb2.png"></a-sky>
 
+    <!-- ... JUSQUE CI-DESSUS -->
+
+    <!-- PLAYER -->
+    <a-entity id="cameraRig">
+
+      <!-- TETE -->
+      <a-entity id="tete" camera position="0 1.6 " look-controls wasd-controls>
+      </a-entity>
+
+      <!-- LEFT HAND -->
+      <a-entity id="maingauche" hand-controls="hand: left; handModelStyle: lowPoly; color: #ffcccc">
+      </a-entity>
+
+      <!-- RIGHT HAND -->
+      <a-entity id="maindroite" hand-controls="hand: right; handModelStyle: lowPoly; color: #ffcccc">
+      </a-entity>
+
+      <!-- PIEDS -->
+      <a-entity id="piedgauche" gltf-model="#leftfoot" rotation="-90 0 180" follow-head-rotation="trace: false"
+        follow-hand-position>
+      </a-entity>
+      <a-entity id="pieddroite" gltf-model="#rightfoot" rotation="-90 0 180" follow-head-rotation="trace: false"
+        follow-hand-position>
+      </a-entity>
+
+    </a-entity>
+
 
 
 
