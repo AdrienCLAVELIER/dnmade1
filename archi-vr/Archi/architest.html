@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene shadow="type: basic" background="color: black">
+
+        <a-assets>
+            <a-asset-item id="model-obj" src="model.obj"></a-asset-item>
+            <a-asset-item id="model-mtl" src="model.mtl"></a-asset-item>
+        </a-assets>
+
+        
+        
+        
+
+        <a-entity obj-model="obj: #model-obj; mtl: #model-mtl" position="0 -6 0" scale="8 8 8" shadow="cast: true" shadow="receive: true" rotation="0 90 0"></a-entity>
+
+        <a-entity light="type: spot; angle: 65 ; target:model-obj; color:#F03131 ; penumbra:50%; castShadow: true;  shadowCameraVisible: true;" position=" 20 0 5" rotation="0 40 0" ></a-entity>
+
+        <a-entity light="type: spot; angle: 65 ; target:model-obj; color:#0C4BF0 ; penumbra:50%; castShadow: true;  shadowCameraVisible: true;" position=" -20 0 5" rotation="0 -40 0" ></a-entity>
+
+        <a-entity light="type: point; intensity: 0.25; distance: 50; decay: 2; castShadow: true;  color : #F0CE00 ; shadowCameraVisible: true;" position="0 10 0" rotation="0 0 0" ></a-entity>
+
+
+
+        <a-plane position="0 -6.1 0" rotation="-90 0 0" scale="1000 1000 1000" shadow="cast: true">  </a-plane>
+
+      
+
+    </a-scene>
+</body>
+
+</html>
